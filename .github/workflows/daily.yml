@@ -1,5 +1,8 @@
 name: Daily Open PR sync
 
+permissions:
+  contents: read
+
 on:
   schedule:
     - cron: '37 */6 * * *'
